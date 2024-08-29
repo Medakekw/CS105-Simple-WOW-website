@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World of Warcraft - Demo Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/wow-logo.png" alt="World of Warcraft Logo" class="logo">
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About WoW</a></li>
+            <li><a href="expansions.html">Expansions</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="demo.html">Demo</a></li>
+        </ul>
+    </nav>
+
+    <main class="demo-main">
+        <section class="game-intro">
+            <h1>Welcome to the Demo Auto-Battle Game!</h1>
+            <p>Choose your class and battle against enemies in an automated combat system. Each class has unique stats: <strong>Warrior</strong> has high health and moderate damage, <strong>Mage</strong> has high damage but low health, <strong>Hunter</strong> has balanced stats with high critical damage, and <strong>Paladin</strong> is balanced with self-healing abilities. The goal is to defeat 10 enemies, with the final one being a formidable boss. Good luck!</p>
+        </section>
+
+        <section id="classSelection">
+            <button onclick="selectClass('warrior')">Warrior</button>
+            <button onclick="selectClass('mage')">Mage</button>
+            <button onclick="selectClass('hunter')">Hunter</button>
+            <button onclick="selectClass('paladin')">Paladin</button>
+            <button onclick="selectClass('deathknight')">Death Knight</button> 
+        </section>
+
+        <div id="gameArea"></div>
+    </main>
+
+    <footer>
+        Marko Jovanovic 6043
+    </footer>
+    <script src="js/demo.js"></script>
+</body>
+</html>

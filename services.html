@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World of Warcraft - Services</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <img src="images/wow-logo.png" alt="World of Warcraft Logo" class="logo">
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About WoW</a></li>
+            <li><a href="expansions.html">Expansions</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="demo.html">Demo</a></li>
+        </ul>
+    </nav>
+
+    <main class="services-main">
+        <ul class="services-list">
+            <!-- Service 1 -->
+            <li class="service-item" onclick="toggleServiceDetails(this)">
+                <div class="service-overview">
+                    <h3>Character Boost</h3>
+                    <p>Boost your character to the latest expansion level cap.</p>
+                </div>
+                <div class="service-details">
+                    <p>With a character boost, you can instantly level up to the latest expansion level cap and jump right into the new content. This service is perfect for players who want to quickly catch up with friends or try a new class without the grind.</p>
+                </div>
+            </li>
+
+            <!-- Service 2 -->
+            <li class="service-item" onclick="toggleServiceDetails(this)">
+                <div class="service-overview">
+                    <h3>Faction Change</h3>
+                    <p>Change your character's faction from Horde to Alliance or vice versa.</p>
+                </div>
+                <div class="service-details">
+                    <p>Faction change allows you to switch your character's allegiance between the Alliance and Horde. Perfect for joining friends or experiencing the game from a new perspective with different quests, cities, and storylines.</p>
+                </div>
+            </li>
+
+            <!-- Service 3 -->
+            <li class="service-item" onclick="toggleServiceDetails(this)">
+                <div class="service-overview">
+                    <h3>Server Transfer</h3>
+                    <p>Transfer your character to a different server.</p>
+                </div>
+                <div class="service-details">
+                    <p>Server transfer lets you move your character to a different realm. This is ideal for players who want to play with friends on another server or escape a high-population realm for a smoother gameplay experience.</p>
+                </div>
+            </li>
+
+        </ul>
+    </main>
+
+    <footer>
+        Marko Jovanovic 6043
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

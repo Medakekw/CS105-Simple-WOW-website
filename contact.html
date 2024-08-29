@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World of Warcraft - Contact</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <img src="images/wow-logo.png" alt="World of Warcraft Logo" class="logo">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About WoW</a></li>
+            <li><a href="expansions.html">Expansions</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="demo.html">Demo</a></li>
+        </ul>
+    </nav>
+    <main class="contact-main">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName"><br>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName"><br>
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject"><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea><br>
+
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone"><br>
+
+            <label for="messageType">Message Type:</label>
+            <select id="messageType" name="messageType">
+                <option value="general">General</option>
+                <option value="support">Support</option>
+                <option value="feedback">Feedback</option>
+            </select><br>
+
+            <button type="button" onclick="validateForm()">Send</button>
+        </form>
+        <div id="formDataDisplay"></div>
+    </main>
+    <footer>
+        Marko Jovanovic 6043
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
